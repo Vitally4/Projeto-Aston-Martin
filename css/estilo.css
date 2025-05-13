@@ -1,0 +1,84 @@
+.container{
+    width: 1276px;
+    height: 366px;
+    gap: 61px;
+    display: flex;
+    margin: 0 auto;
+ 
+}
+.destaque{
+    font-family: inter;
+    font-weight: 700px;
+    font-size: 60px;
+    line-height: 46.2px;
+    letter-spacing: 1px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.ultimate700{
+    font-family: inter;
+    font-weight: 400px;
+    font-size: 60px;
+    line-height: 46.2px;
+    letter-spacing: 1px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.img{
+    width: 850px;
+    height: 366px;
+
+
+
+}
+h2{
+    color: white;
+    width: 365px;
+    height: 57px;
+
+
+}
+body{
+    background-color: black;
+}
+p{
+    color: #FFFFFF;
+    width: 350;
+    height: 73;
+
+}
+.botao{
+    width: 172;
+height: 52;
+top: 246px;
+gap: 10px;
+border-radius: 10px;
+border-width: 1px;
+padding: 16px 33px 16px 33px;
+border: 1px solid #FFFFFF;
+text-align: center;
+color: #FFFFFF;
+    
+}
+.container2{
+    width: 1291px;
+    height: 359px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.botao2{
+    width: 172px;
+    height: 52px;
+    margin: 130px;
+    padding: 16px 33px 16px 33px;
+    gap: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    
+}
+
