@@ -1,4 +1,46 @@
-.container{
+.header{
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid white;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    font-family: sans-serif;
+  }
+
+.container1{
+    max-width: 1280px;
+    width: 100%;
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    margin: 0 auto;
+}
+.logo img{
+    width: 83px;
+    height: 22.21px;
+    border: 1.3px;
+    
+}
+.menu{
+    list-style: none;
+    display: flex;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+.comprar{
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.container2{
     width: 1276px;
     height: 366px;
     gap: 61px;
@@ -7,24 +49,25 @@
  
 }
 .destaque{
-    font-family: inter;
-    font-weight: 700px;
+    font-family: 'inter',sans-serif;
+    font-weight: 700;
     font-size: 60px;
     line-height: 46.2px;
     letter-spacing: 1px;
     text-align: center;
-    vertical-align: middle;
+    vertical-align: text-bottom;
 
 }
 
 .ultimate700{
-    font-family: inter;
-    font-weight: 400px;
-    font-size: 60px;
+    font-family: 'inter',sans-serif;
+    font-weight: 400;
+    font-size: 30px;
     line-height: 46.2px;
     letter-spacing: 1px;
     text-align: center;
     vertical-align: middle;
+    font-style: italic;
 
 }
 
@@ -52,33 +95,41 @@ p{
 
 }
 .botao{
-    width: 172;
-height: 52;
-top: 246px;
-gap: 10px;
-border-radius: 10px;
-border-width: 1px;
-padding: 16px 33px 16px 33px;
-border: 1px solid #FFFFFF;
-text-align: center;
-color: #FFFFFF;
-    
-}
-.container2{
-    width: 1291px;
-    height: 359px;
-    display: flex;
-    margin: 0 auto;
-}
-
-.botao2{
     width: 172px;
     height: 52px;
-    margin: 130px;
-    padding: 16px 33px 16px 33px;
-    gap: 10px;
     border-radius: 10px;
-    border-width: 1px;
-    
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    gap: 10px;
+    padding: 16px 33px 16px 33px;
 }
+.container3{
+    width: 1291px;
+    height: 359px;
+    margin: 0 auto 157px;
+    display: flex;
+    gap: 33px;
+}
+.botao2 {
+    width: 172px;
+    height: 52px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    gap: 10px;
+    padding: 16px 33px 16px 33px;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.container4{
+    width: 1296px;
+    height: 340px;
+    border-radius: 12px;
+    margin: 0 auto;
+    background: linear-gradient(89.95deg, #91282F 0.44%, #330002 98.92%);
 
+}
