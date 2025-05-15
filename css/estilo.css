@@ -2,19 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
     background-color: black;
-    font-family: 'Arial', sans-serif;
     color: white;
 }
 
 .header {
     width: 100%;
-    height: 80px;
-    border-bottom: 2px solid #404040;
     background-color: black;
+    border-bottom: 2px solid #404040;
 }
 
 .container1 {
@@ -26,32 +25,44 @@ body {
     align-items: center;
     padding: 0 24px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
+
 
 .logo img {
     width: 83px;
     height: 22.21px;
+    align-items: center;
+    margin-top: 10px;
 }
 
 .menu {
     list-style: none;
     display: flex;
-    gap: 16px;
+    gap: 8px;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.menu li {
+    display: flex;
 }
 
 .menu a {
     color: white;
     text-decoration: none;
-    padding: 8px 16px;
+    padding: 8px 12px;
     font-size: 14px;
     font-weight: 500;
+    display: inline-flex;
+    align-items: center;
 }
 
 .comprar {
     border-radius: 10px;
     border: 1px solid white;
+    padding: 8px 14px;
 }
-
 
 .container2 {
     max-width: 1280px;
@@ -64,9 +75,9 @@ body {
 }
 
 .container2 img {
-    max-width: 650px;
-    width: 100%;
-    height: auto;
+    max-width: 1280px;
+    width: 850px;
+    height: 366px;
 }
 
 h2 {
@@ -77,6 +88,7 @@ h2 {
 }
 
 .destaque {
+    font-family: 'inter', sans-serif;
     font-weight: 700;
     font-size: 60px;
     letter-spacing: 1px;
@@ -84,36 +96,34 @@ h2 {
     text-align: center;
 }
 
-.ultimate700 {
-    font-style: italic;
+.ultimate700{
+    font-family: 'inter', sans-serif;
     font-weight: 400;
-    line-height: 46.2px;
-    text-align: center;
-    padding: 10px;
-    vertical-align: middle;
+    font-style: italic;
     font-size: 30px;
+    line-height: 47.2px;
     letter-spacing: 1px;
-    margin-bottom: -15px;
-}
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 16px;
+  }
 
 .container2 p{
     width: 350px;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 24.2px;
     color: #ccc;
     letter-spacing: 1px;
     vertical-align: middle;
 }
 
-
-
-    
 .container3 p {
-    font-size: 15px;
-    line-height: 1.5;
-    max-width: 400px;
-    margin-top: 16px;
+    width: 350px;
+    font-size: 14px;
+    line-height: 24.2px;
     color: #ccc;
+    letter-spacing: 1px;
+    vertical-align: middle;
 }
 
 .botao,
@@ -140,10 +150,9 @@ h2 {
 }
 
 .container3 img {
-    max-width: 500px;
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+    max-width: 1280px;
+    width: 568px;
+    height: 373px;
 }
 
 .container4 {
@@ -176,11 +185,10 @@ h2 {
     min-width: 280px;
 }
 
-.banner-texto h1 {
+.banner-texto h2 {
     font-size: 26px;
     font-weight: bold;
     margin-bottom: 16px;
-    text-transform: lowercase;
 }
 
 .banner-texto p {
@@ -204,43 +212,11 @@ h2 {
 }
 
 .banner-aston img {
-    max-width: 450px;
-    width: 100%;
-    height: auto;
+    max-width: 1280px;
+    width: 533px;
+    height: 280px;
 }
 
-.caixa1{
-    width: 1275px;
-    margin: 0 auto;
-    justify-content: space-between;
-    
- }
- 
- .caixa1 hr{
-    width: 1275px;
-    margin: 0 auto;
- }
-
-  .rodape{
-    background-color: #ffffff;
-    color: #000000;
-    text-align: center;
-    padding: 40px 20px;
-    margin-top: 100px;
- }
- 
- .rodape h2{
-    font-weight: normal;
-    font-size: 18px;
-    margin-bottom: 10px;
-    letter-spacing: 1px;
- }
- 
- .rodape hr{
-    margin: 20px auto;
-    width: 1280px;
-    border: 2px solid rgba(164, 164, 164, 1)
- }
  
  .rodape .aviso{
     font-size: 14px;
@@ -249,25 +225,7 @@ h2 {
     line-height: 1.6;
     color: #000000;
  }
-
-.rodapecima{
-    width: 1280px;
-    margin: 0 auto;
-    font-weight: 500;
-    line-height: 100%;
-}
-
- .rodape .rodapecima p{
-    margin-bottom: 64px;
- }
  
- .rodape .creditos{
-    width: 1280px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
- }
 
  .rodape .aviso p{
     width: 1280px;
@@ -285,12 +243,6 @@ h2 {
     margin-top: 100px;
  }
  
- .rodape h2{
-    font-weight: normal;
-    font-size: 18px;
-    margin-bottom: 10px;
-    letter-spacing: 1px;
- }
  
  .rodape hr{
     margin: 20px auto;
@@ -335,20 +287,258 @@ h2 {
     font-weight: normal;
  }
 
-@media screen and (max-width:1023px) {
-
-    .container{
-    width: 100%;
+ @media screen and (max-width: 1023px) {
+    .container1 {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+      padding: 16px;
     }
-.box{
-    width: 88%;
-    flex-direction: column;
-}
-.box img{
-    width: 100%;
-}
-.container{
-    width: 100%;
-}
+  
+    .logo {
+      margin-bottom: 12px;
+    }
+  
+    .menu {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      font-size: 13px;
+      width: 100%;
+      align-items: center;
+    }
+  
+    .menu li {
+      flex: none;
+    }
+  
+    .container2,
+    .container3 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 32px;
+      margin: 60px auto;
+    }
+  
+    .container2 img,
+    .container3 img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .container2 p,
+    .container3 p,
+    .container4 p {
+      max-width: 90%;
+      font-size: 15px;
+    }
+  
+    h2 {
+      font-size: 26px;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .destaque {
+      font-size: 38px;
+      line-height: 1.2;
+    }
+  
+    .ultimate700 {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+  
+    .banner-aston {
+      flex-direction: column;
+      text-align: center;
+      padding: 24px;
+    }
+  
+    .banner-texto {
+      width: 100%;
+    }
+  
+    .banner-aston img {
+      max-width: 90%;
+      height: auto;
+    }
+  
+    .botao,
+    .botao2,
+    .botao-banner {
+      width: auto;
+      font-size: 13px;
+      padding: 12px 20px;
+    }
+  
+    .rodape {
+      padding: 40px 20px;
+    }
+  
+    .rodape .creditos {
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      margin-top: 30px;
+    }
+  
+    .rodape .links {
+      flex-direction: column;
+      gap: 8px;
+    }
+  
+    .rodape .links a {
+      margin: 0;
+      font-size: 14px;
+    }
 }
   
+  @media screen and (max-width: 768px) {
+    .container1 {
+      flex-direction: column;
+      align-items: center;
+      padding: 16px;
+      gap: 12px;
+    }
+  
+    .logo {
+      margin-bottom: 8px;
+    }
+  
+    .menu {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+    }
+  
+    .menu li {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .container2,
+    .container3,
+    .container4 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 24px;
+      margin: 50px auto;
+      padding: 0 16px;
+    }
+  
+    .container2 img,
+    .container3 img,
+    .banner-aston img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .container2 p,
+    .container3 p,
+    .container4 p {
+      width: 100%;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+  
+    .destaque {
+      font-size: 32px;
+      line-height: 1.2;
+    }
+  
+    .ultimate700 {
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+  
+    .botao,
+    .botao2,
+    .botao-banner {
+      padding: 10px 18px;
+      font-size: 13px;
+    }
+  
+    .banner-aston {
+      flex-direction: column;
+      padding: 20px;
+      text-align: center;
+      gap: 20px;
+    }
+  
+    .banner-texto h1 {
+      font-size: 22px;
+    }
+  
+    .banner-texto p {
+      font-size: 14px;
+    }
+  
+    .rodape {
+        padding: 30px 16px;
+        margin-top: 80px;
+        text-align: center;
+      }
+    
+      .rodapecima {
+        width: 100%;
+        margin: 0 auto 20px;
+        font-weight: 500;
+        line-height: 1.2;
+      }
+    
+      .rodapecima img {
+        max-width: 120px;
+        height: auto;
+        margin-bottom: 16px;
+      }
+    
+      .rodape hr {
+        width: 90%;
+        margin: 20px auto;
+        border: 1.5px solid rgba(164, 164, 164, 0.7);
+      }
+    
+      .rodape .aviso {
+        width: 100%;
+        font-size: 13px;
+        color: #000000;
+        line-height: 1.5;
+        padding: 0 10px;
+        margin: 0 auto 20px;
+        font-weight: 500;
+      }
+    
+      .rodape .creditos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        margin-top: 0;
+        font-size: 13px;
+        width: 100%;
+      }
+    
+      .rodape .creditos p {
+        margin: 0;
+      }
+    
+      .rodape .links {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-items: center;
+        width: 100%;
+      }
+    
+      .rodape .links a {
+        font-size: 13px;
+        color: black;
+        font-weight: normal;
+        text-decoration: none;
+        margin: 0;
+      }
+    }
