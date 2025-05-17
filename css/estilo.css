@@ -52,7 +52,7 @@ body {
     color: white;
     text-decoration: none;
     padding: 8px 12px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
     display: inline-flex;
     align-items: center;
@@ -88,7 +88,7 @@ h2 {
 }
 
 .destaque {
-    font-family: 'inter', sans-serif;
+    font-family: "Inter";
     font-weight: 700;
     font-size: 60px;
     letter-spacing: 1px;
@@ -97,7 +97,7 @@ h2 {
 }
 
 .ultimate700{
-    font-family: 'inter', sans-serif;
+    font-family: "Inter";
     font-weight: 400;
     font-style: italic;
     font-size: 30px;
@@ -109,8 +109,10 @@ h2 {
   }
 
 .container2 p{
+  font-family: "Inter";
+    font-weight: 300;
     width: 350px;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 24.2px;
     color: #ccc;
     letter-spacing: 1px;
@@ -118,8 +120,10 @@ h2 {
 }
 
 .container3 p {
-    width: 350px;
-    font-size: 14px;
+    font-family: "Inter";
+    font-weight: 300;
+    width: 636px;
+    font-size: 20px;
     line-height: 24.2px;
     color: #ccc;
     letter-spacing: 1px;
@@ -128,6 +132,8 @@ h2 {
 
 .botao,
 .botao2 {
+  font-family: "inter";
+  font-weight: 400px;
     display: inline-block;
     padding: 16px 33px;
     margin-top: 24px;
@@ -135,7 +141,7 @@ h2 {
     text-decoration: none;
     color: white;
     border: 1px solid  #FFFFFF;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 
@@ -186,16 +192,22 @@ h2 {
 }
 
 .banner-texto h2 {
-    font-size: 26px;
+    font-family: "Inter";
+    font-weight: 600; 
+    font-size: 36px;
     font-weight: bold;
     margin-bottom: 16px;
 }
 
 .banner-texto p {
-    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    width: 396px;
+    height: 55px;
+    font-size: 17px;
     color: #ddd;
     margin-bottom: 20px;
-    line-height: 1.5;
+    line-height: 27.3px;
     
 }
 
@@ -217,22 +229,16 @@ h2 {
     height: 280px;
 }
 
- 
- .rodape .aviso{
-    font-size: 14px;
-    margin: 0 auto;
-    max-width: 900px;
-    line-height: 1.6;
-    color: #000000;
- }
- 
 
  .rodape .aviso p{
+    font-family: "Inter";
+    font-weight: 500;
     width: 1280px;
     height: 51px;
-    font-weight: 500;
     font-size: 14px;
     vertical-align: center;
+    line-height: 100%;
+    letter-spacing: 0%;
 }
 
 .rodape{
@@ -243,7 +249,10 @@ h2 {
     margin-top: 100px;
  }
  
- 
+ .rodapecima img{
+    width: 197px;
+    height: 17px;
+ }
  .rodape hr{
     margin: 20px auto;
     width: 1280px;
@@ -410,8 +419,7 @@ h2 {
     .menu {
       flex-direction: column;
       align-items: center;
-      gap: 10px;
-      width: 100%;
+      width: 100px;
     }
   
     .menu li {
