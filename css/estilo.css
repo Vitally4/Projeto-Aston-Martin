@@ -151,7 +151,6 @@ h2 {
     align-items: center;
     gap: 60px;
     padding: 0 24px;
-    flex-wrap: wrap;
     margin: 100px auto 80px;
 }
 
@@ -160,7 +159,6 @@ h2 {
     width: 568px;
     height: 373px;
 }
-
 .container4 {
     max-width: 1280px;
     margin: 80px auto;
@@ -195,8 +193,7 @@ h2 {
     font-family: "Inter";
     font-weight: 600; 
     font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 16px;
+    line-height: 42.8px;
 }
 
 .banner-texto p {
@@ -204,7 +201,7 @@ h2 {
     font-weight: 400;
     width: 396px;
     height: 55px;
-    font-size: 17px;
+    font-size: 16px;
     color: #ddd;
     margin-bottom: 20px;
     line-height: 27.3px;
@@ -227,6 +224,7 @@ h2 {
     max-width: 1280px;
     width: 533px;
     height: 280px;
+    margin:  44px 113px 16px 150px;
 }
 
 
