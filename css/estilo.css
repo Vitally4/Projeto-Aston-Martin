@@ -1,550 +1,348 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0 ;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: #fff;
 }
 
-.header {
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header {
     width: 100%;
-    background-color: black;
-    border-bottom: 2px solid #404040;
+    border-bottom: 1px solid #D0D1D3;
+    background-color: #000;
+            
 }
 
-.container1 {
-    max-width: 1280px;
+.cabecalho {
+    max-width: 1296px;
     width: 100%;
     height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 24px;
     margin: 0 auto;
-    box-sizing: border-box;
-}
-
-
-.logo img {
-    width: 83px;
-    height: 22.21px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
+    padding: 0 20px;
 }
 
-.menu {
+.img img {
+    max-height: 30px;
+}
+
+.botoes_cabecalho ul {
+    display: flex;
     list-style: none;
-    display: flex;
-    gap: 8px;
-    flex-wrap: nowrap;
     align-items: center;
 }
 
-.menu li {
-    display: flex;
+.botoes_cabecalho li {
+    margin: 0 15px;
 }
 
-.menu a {
-    color: white;
-    text-decoration: none;
-    padding: 8px 12px;
-    font-size: 15px;
-    font-weight: 500;
-    display: inline-flex;
-    align-items: center;
+.btn {
+    font-size: 16px;
+    font-weight: 400;
+    transition: color 0.3s ease;
 }
 
-.comprar {
+.btn:hover {
+    color: #ccc;
+}
+
+.btn_comprar_cabecalho {
+    padding: 10px 20px;
+    border: 1px solid #fff;
     border-radius: 10px;
-    border: 1px solid white;
-    padding: 8px 14px;
+    font-size: 16px;
+    transition: all 0.3s ease;
 }
 
-.container2 {
-    max-width: 1280px;
+.btn_comprar_cabecalho:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+section {
+    max-width: 100%;
+    padding-top: 80px;
+    margin-top: 132px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block1 {
+    display: flex;
+    max-width: 1296px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+.block1_card {
+    max-width: 380px;
+    margin: 0 auto;
+}
+
+.destaque1{
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 60px;
+}
+
+.destaque2{
+    font-weight: 300px;
+    font-style: italic;
+}
+
+.block1_card h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 300px;
+}
+
+.block1_card p {
+    color: #C4C4C4;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.block1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.block2 {
+    display: flex;
+    max-width: 1296px;
+    margin: 52px auto;
+    padding: 0;
+    align-items: center;
+    justify-content: space-between;
+      
+}
+
+.block2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.block2_card {
+    max-width: 480px;
+    padding-left: 40px;
+}
+
+.block2_card p {
+    color: #C4C4C4;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.block3 {
+    max-width: 1296px;
+    margin: 100px auto;
+    padding: 60px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 100px auto 80px;
-    gap: 61px;
-    padding: 0 24px;
+    background: linear-gradient(89.95deg, #91282F 0.44%, #330002 98.92%);
+    border-radius: 10px;
 }
 
-.container2 img {
-    max-width: 1280px;
-    width: 850px;
-    height: 366px;
+.block3_text {
+    max-width: 450px;
+    padding: 0 20px;
 }
 
-h2 {
+.block3_text h2 {
     font-size: 32px;
-    margin-bottom: 16px;
-    display: flex;
-    align-items: center;
+    margin-bottom: 20px;
+    font-weight: 600;
 }
 
-.destaque {
-    font-family: "Inter";
-    font-weight: 700;
-    font-size: 60px;
-    letter-spacing: 1px;
-    line-height: 46.2px;
-    text-align: center;
-}
-
-.ultimate700{
-    font-family: "Inter";
-    font-weight: 400;
-    font-style: italic;
-    font-size: 30px;
-    line-height: 47.2px;
-    letter-spacing: 1px;
-    text-align: center;
-    vertical-align: middle;
-    margin-top: 16px;
-  }
-
-.container2 p{
-  font-family: "Inter";
-    font-weight: 300;
-    width: 350px;
+.block3_text p {
+    color: #C4C4C4;
     font-size: 16px;
-    line-height: 24.2px;
-    color: #ccc;
-    letter-spacing: 1px;
-    vertical-align: middle;
+    line-height: 1.5;
+    margin-bottom: 30px;
 }
 
-.container3 p {
-    font-family: "Inter";
-    font-weight: 300;
-    width: 636px;
-    font-size: 20px;
-    line-height: 24.2px;
-    color: #ccc;
-    letter-spacing: 1px;
-    vertical-align: middle;
+.block3_img img {
+    max-width: 100%;
+    height: auto;
 }
 
-.botao,
-.botao2 {
-  font-family: "inter";
-  font-weight: 400px;
+.btn1 {
+    margin-top: 30px;
+}
+
+.btn1 a, .btn2 {
+    background-color: #000000;
     display: inline-block;
     padding: 16px 33px;
-    margin-top: 24px;
+    border: 1px solid #fff;
     border-radius: 10px;
-    text-decoration: none;
-    color: white;
-    border: 1px solid  #FFFFFF;
-    font-size: 15px;
-}
-
-
-.container3 {
-    max-width: 1280px;
-    display: flex;
-    align-items: center;
-    gap: 60px;
-    padding: 0 24px;
-    margin: 100px auto 80px;
-}
-
-.container3 img {
-    max-width: 1280px;
-    width: 568px;
-    height: 373px;
-}
-.container4 {
-    max-width: 1280px;
-    margin: 80px auto;
-    padding: 0 24px;
-    margin: 100px auto 80px;
-}
-.container4 p{
-    width: 400px;
-    font-size: 17px;
-    line-height: 27.3px;
-    letter-spacing: 0%;
-}
-
-.banner-aston {
-    background: linear-gradient(90deg, #7d1d22, #330002);
-    border-radius: 16px;
-    padding: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 24px;
-    color: white;
-}
-
-.banner-texto {
-    flex: 1;
-    min-width: 280px;
-}
-
-.banner-texto h2 {
-    font-family: "Inter";
-    font-weight: 600; 
-    font-size: 36px;
-    line-height: 42.8px;
-}
-
-.banner-texto p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    width: 396px;
-    height: 55px;
     font-size: 16px;
-    color: #ddd;
-    margin-bottom: 20px;
-    line-height: 27.3px;
-    
+    text-align: center;
 }
 
-.botao-banner {
-    display: inline-block;
-    padding: 12px 28px;
-    background-color: black;
-    color: white;
-    border: 1px solid #FFFFFF;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 14px;
+.btn1 a:hover, .btn2:hover {
+    background-color: #fff;
+    color: #000;
 }
 
-.banner-aston img {
-    max-width: 1280px;
-    width: 533px;
-    height: 280px;
-    margin:  44px 113px 16px 150px;
-}
-
-
- .rodape .aviso p{
-    font-family: "Inter";
-    font-weight: 500;
-    width: 1280px;
-    height: 51px;
-    font-size: 14px;
-    vertical-align: center;
-    line-height: 100%;
-    letter-spacing: 0%;
-}
-
-.rodape{
+footer {
+    padding: 40px 0;
     background-color: #ffffff;
     color: #000000;
-    text-align: center;
-    padding: 40px 20px;
-    margin-top: 100px;
- }
- 
- .rodapecima img{
-    width: 197px;
-    height: 17px;
- }
- .rodape hr{
-    margin: 20px auto;
-    width: 1280px;
-    border: 2px solid rgba(164, 164, 164, 1)
- }
- 
- .rodape .aviso{
-    width: 1280px;
-    height: 51px;
-    font-weight: 500;
-    font-size: 14px;
-    margin: 0 auto;
-    line-height: 1.6;
- }
-
-.rodapecima{
-    width: 1280px;
-    margin: 0 auto;
-    font-weight: 500;
-    line-height: 100%;
 }
 
- .rodape .rodapecima p{
-    font-weight: normal;
-    margin-bottom: 64px;
- }
- 
- .rodape .creditos{
-    width: 1280px;
+footer h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    color: #000000;
+    
+}
+
+.text_footer {
+    max-width: 1310px;
+    margin: 30px auto;
+    padding: 30px 20px;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    text-align: center;
+    color: #000000;
+}
+
+.text_footer p {
+    color: #C4C4C4;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.text2_footer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    font-size: 14px;
- }
- 
- .rodape .links a{
-    margin-left: 20px;
-    text-decoration: none;
-    color: black;
-    font-weight: normal;
- }
-
- @media screen and (max-width: 1023px) {
-    .container1 {
-      flex-direction: column;
-      align-items: center;
-      height: auto;
-      padding: 16px;
-    }
-  
-    .logo {
-      margin-bottom: 12px;
-    }
-  
-    .menu {
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 12px;
-      font-size: 13px;
-      width: 100%;
-      align-items: center;
-    }
-  
-    .menu li {
-      flex: none;
-    }
-  
-    .container2,
-    .container3 {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      gap: 32px;
-      margin: 60px auto;
-    }
-  
-    .container2 img,
-    .container3 img {
-      max-width: 100%;
-      height: auto;
-    }
-  
-    .container2 p,
-    .container3 p,
-    .container4 p {
-      max-width: 90%;
-      font-size: 15px;
-    }
-  
-    h2 {
-      font-size: 26px;
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .destaque {
-      font-size: 38px;
-      line-height: 1.2;
-    }
-  
-    .ultimate700 {
-      font-size: 20px;
-      margin-bottom: 8px;
-    }
-  
-    .banner-aston {
-      flex-direction: column;
-      text-align: center;
-      padding: 24px;
-    }
-  
-    .banner-texto {
-      width: 100%;
-    }
-  
-    .banner-aston img {
-      max-width: 90%;
-      height: auto;
-    }
-  
-    .botao,
-    .botao2,
-    .botao-banner {
-      width: auto;
-      font-size: 13px;
-      padding: 12px 20px;
-    }
-  
-    .rodape {
-      padding: 40px 20px;
-    }
-  
-    .rodape .creditos {
-      flex-direction: column;
-      align-items: center;
-      gap: 16px;
-      margin-top: 30px;
-    }
-  
-    .rodape .links {
-      flex-direction: column;
-      gap: 8px;
-    }
-  
-    .rodape .links a {
-      margin: 0;
-      font-size: 14px;
-    }
+    max-width: 1310px;
+    margin: 30px auto;
+    padding: 0 20px;
+    color: #000000;
 }
-  
-  @media screen and (max-width: 768px) {
-    .container1 {
-      flex-direction: column;
-      align-items: center;
-      padding: 16px;
-      gap: 12px;
+
+.text2_footer p {
+    color: #C4C4C4;
+    font-size: 14px;
+    color: #000000;
+}
+
+.text2_footer a {
+    color: #C4C4C4;
+    color: #000000;
+}
+
+.text2_footer a:hover {
+    color: #555555;
+}
+
+@media screen and (max-width: 1200px) {
+    .block1, .block2, .block3 {
+        max-width: 95%;
     }
-  
-    .logo {
-      margin-bottom: 8px;
+            
+    .block1, .block2 {
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 20px;
     }
-  
-    .menu {
-      flex-direction: column;
-      align-items: center;
-      width: 100px;
-    }
-  
-    .menu li {
-      width: 100%;
-      text-align: center;
-    }
-  
-    .container2,
-    .container3,
-    .container4 {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      gap: 24px;
-      margin: 50px auto;
-      padding: 0 16px;
-    }
-  
-    .container2 img,
-    .container3 img,
-    .banner-aston img {
-      width: 100%;
-      height: auto;
-    }
-  
-    .container2 p,
-    .container3 p,
-    .container4 p {
-      width: 100%;
-      font-size: 14px;
-      line-height: 1.5;
-    }
-  
-    .destaque {
-      font-size: 32px;
-      line-height: 1.2;
-    }
-  
-    .ultimate700 {
-      font-size: 18px;
-      margin-bottom: 8px;
-    }
-  
-    .botao,
-    .botao2,
-    .botao-banner {
-      padding: 10px 18px;
-      font-size: 13px;
-    }
-  
-    .banner-aston {
-      flex-direction: column;
-      padding: 20px;
-      text-align: center;
-      gap: 20px;
-    }
-  
-    .banner-texto h1 {
-      font-size: 22px;
-    }
-  
-    .banner-texto p {
-      font-size: 14px;
-    }
-  
-    .rodape {
-        padding: 30px 16px;
-        margin-top: 80px;
-        text-align: center;
-      }
     
-      .rodapecima {
+    .block1_card, .block2_card {
+    max-width: 80%;
+    padding: 0;
+    margin-bottom: 40px;
+    }
+    
+    .block1 img, .block2 img {
+    max-width: 80%;
+    margin: 0;
+    }
+    
+    .block3 {
+    flex-direction: column;
+    text-align: center;
+    }
+    
+    .block3_text {
+        max-width: 80%;
+        margin-bottom: 40px;
+        padding: 0;
+    }
+    
+    .block3_img {
+        padding: 0;
+    }
+            
+
+    .cabecalho {
         width: 100%;
-        margin: 0 auto 20px;
-        font-weight: 500;
-        line-height: 1.2;
-      }
-    
-      .rodapecima img {
-        max-width: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         height: auto;
-        margin-bottom: 16px;
-      }
-    
-      .rodape hr {
-        width: 90%;
-        margin: 20px auto;
-        border: 1.5px solid rgba(164, 164, 164, 0.7);
-      }
-    
-      .rodape .aviso {
-        width: 100%;
-        font-size: 13px;
-        color: #000000;
-        line-height: 1.5;
-        padding: 0 10px;
-        margin: 0 auto 20px;
-        font-weight: 500;
-      }
-    
-      .rodape .creditos {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 12px;
-        margin-top: 0;
-        font-size: 13px;
-        width: 100%;
-      }
-    
-      .rodape .creditos p {
-        margin: 0;
-      }
-    
-      .rodape .links {
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-        align-items: center;
-        width: 100%;
-      }
-    
-      .rodape .links a {
-        font-size: 13px;
-        color: black;
-        font-weight: normal;
-        text-decoration: none;
-        margin: 0;
-      }
+        padding: 20px;
+
     }
+
+    .img {
+        margin-bottom: 20px;
+
+    }
+
+    .botoes_cabecalho ul {
+        flex-direction: column;
+    }
+
+    .botoes_cabecalho li {
+        margin: 10px 0;
+    }
+
+    .text2_footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .text2_footer p {
+        margin: 10px 0;
+         
+    }
+    
+    .block1_card h2 {
+        font-size: 36px;
+    }
+
+    .block3_text h2 {
+        font-size: 28px;
+    }
+
+    .btn1 a, .btn2 {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+
+    .block1, .block2, .block3 {
+        padding: 30px 15px;
+    }
+
+}
